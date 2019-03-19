@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="firstq">whom among the following is not batman robin</string>
+    <string name="ans1">dick grayson</string>
+    <string name="ans2">jason todd</string>
+    <string name="ans3">tim drake</string>
+    <string name="ans4">jaime reyes</string>
+    <string name="chec1">Jason Todd</string>
+    <string name="chec2">Artemis</string>
+    <string name="chec3">Bizarro</string>
+    <string name="chec4">Conner Kent</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.com.android.quizapp.MainActivity">
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="score"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="15dp"
+        android:padding="8dp"
+        android:text="@string/firstq"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pick1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:padding="8dp"
+        android:text="@string/ans1"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/pick2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="#000"
+        android:padding="8dp"
+        android:text="@string/ans2"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/pick3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="#000"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:text="@string/ans3"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/pick4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="#000"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:text="@string/ans4"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chec1"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chec2"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chec3"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chec4"
+        android:onClick="onCheckboxClicked"/>
+</LinearLayout>
+</ScrollView>
